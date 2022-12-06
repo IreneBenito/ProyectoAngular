@@ -9,6 +9,7 @@ import { TaskFormComponent } from './components/task-form/task-form.component';
 import { LoginFormComponent } from './components/auth/login-form/login-form.component';
 import { RegisterFormComponent } from './components/auth/register-form/register-form.component';
 import { NavBarComponent } from './components/nav/nav-bar/nav-bar.component';
+import { HomePageComponent } from './components/pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavBarComponent } from './components/nav/nav-bar/nav-bar.component';
     TaskFormComponent,
     LoginFormComponent,
     RegisterFormComponent,
-    NavBarComponent
+    NavBarComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
