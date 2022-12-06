@@ -8,6 +8,7 @@ import { TaskComponent } from './components/task/task.component';
 import { TaskFormComponent } from './components/task-form/task-form.component';
 import { LoginFormComponent } from './components/auth/login-form/login-form.component';
 import { RegisterFormComponent } from './components/auth/register-form/register-form.component';
+import { NavBarComponent } from './components/nav/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegisterFormComponent } from './components/auth/register-form/register-
     TaskComponent,
     TaskFormComponent,
     LoginFormComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
