@@ -28,4 +28,10 @@ export class TaskListComponent implements OnInit{
     
   }
 
+  /* metodo que recibe una tarea */
+  deleteTask(task: ITask){
+    /* TODO: Sustituir por un Splice para eliminar tarea de la lista de tareas */
+    alert(`Se procede a eliminar la tarea : ${task.title}`);
+  }
+
 }

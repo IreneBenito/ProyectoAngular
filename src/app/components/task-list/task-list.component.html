@@ -2,5 +2,5 @@
 
 <!-- TODO: Replantear con directiva estructural -->
 <!-- pasamos las tareas al componente hijo -->
-<app-task [task]="task1"></app-task>
-<app-task [task]="task2"></app-task>
+<app-task [task]="task1" (delete)="deleteTask($event)"></app-task>
+<app-task [task]="task2" (delete)="deleteTask($event)"></app-task>
