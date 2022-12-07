@@ -18,7 +18,7 @@ export class TaskListComponent implements OnInit{
   task2: ITask = {
     title: 'Task 2',
     description: 'Description 2',
-    completed: false,
+    completed: true,
     level: Levels.Urgent //importamos levels
   }
 
