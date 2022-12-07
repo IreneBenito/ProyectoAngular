@@ -1,5 +1,6 @@
 <h4>Tus tareas:</h4>
 
 <!-- TODO: Replantear con directiva estructural -->
-<app-task></app-task>
-<app-task></app-task>
+<!-- pasamos las tareas al componente hijo -->
+<app-task [task]="task1"></app-task>
+<app-task [task]="task2"></app-task>
