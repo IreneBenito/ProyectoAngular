@@ -9,6 +9,8 @@ export class AppComponent implements OnInit{
   
   title = 'ProyectoAngular';
   
+  constructor(){}
+  
   ngOnInit(): void {
     
   }
